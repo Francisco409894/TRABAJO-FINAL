@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Encabezado */
+header {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Presentación */
+.presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.presentacion .texto {
+    flex: 1;
+    padding: 20px;
+}
+
+.presentacion .imagen img {
+    max-width: 250px;
+    border: 3px solid red;
+}
+
+/* Secciones */
+section h2 {
+    background-color: red;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.bloque {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.bloque img {
+    max-width: 300px;
+    border: 3px solid red;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.item img {
+    width: 100%;
+    border: 3px solid red;
+}
+
+/* Pie */
+footer {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.logo{background-color: black;}
+.Bienvenido {font-size: larger;}
+.imagen{width: 200px; height: 300px;}
